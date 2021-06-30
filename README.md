@@ -30,4 +30,11 @@ where :
 - the othere elements are a couple of lenght and demands of i-th item.
 
 ## Options
-- debug when is ```True``` 
+
+### debug 
+- ```True``` the solver run a little instance of defaul
+- ```False``` the solver run a instance in ```instances.csv``` file
+
+### mostraRisultati
+- ```True``` show optimum of master problem and new pattern at each iteration
+- ```False``` show only optimum of cutting stock problem with number of iteration
