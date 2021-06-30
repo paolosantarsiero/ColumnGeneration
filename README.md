@@ -27,4 +27,7 @@ In the file instance.csv you can insert your items with structure like
 ```
 where :
 - first element on top of file is the max_length of items in stock, which variable in code is called lunghezza_max_asse
-- the othere elements are a couple of lenght and demands of i-th item
+- the othere elements are a couple of lenght and demands of i-th item.
+
+## Options
+- debug when is ```True``` 
