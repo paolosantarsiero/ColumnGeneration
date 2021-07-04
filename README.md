@@ -38,3 +38,16 @@ where :
 ### mostraRisultati
 - ```True``` show optimum of master problem and new pattern at each iteration
 - ```False``` show only optimum of cutting stock problem with number of iteration
+
+
+## Benchmarks
+
+| nItems  | max_width (cm) | time (min) | iteration  | optimum |
+| ------------- | ------------- |
+| 4  | 110  |   | 0.2 s  |  7  | 47 |
+| 23  | 50  | 1.4 s  | 37  |  23  |
+| 38  | 150  | 2.9 s  | 61  |  31  |
+| 177  | 400  | 1 m 7 s  | 396 |  236  |
+| 230  | 400  | 1 m 8 s  | 556  |  382  |
+| 313  | 500  | 6 m 20 s  | 1092  |  330  |
+| 496  | 1000  | 18 m 2 s  | 2660  |  504  |
